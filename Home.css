@@ -70,23 +70,95 @@ li {
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(136, 116, 116, 0.2);
 }
-.headclass {
-  max-width: 100%;
-  max-height: auto;
 
+.container1 {
   background-color: #604652;
+  max-width: 1450px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  border-radius: 10px;
+  margin: 20px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-div.para {
-  position: fixed;
-  width: 45%;
+.container1:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+.image1 {
+  width: 50%;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.image1 img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
 
-  margin-top: 200px;
+.contenthome {
   text-align: center;
-  max-width: 100%;
-  max-height: auto;
+  width: 50%;
+  margin-left: 40px;
 }
-.heading {
-  color: aliceblue;
-  max-width: 100%;
-  max-height: auto;
+.contenthome h1 {
+  color: #ffffff;
+  font-size: 34px;
+  margin-bottom: 20px;
+}
+.contenthome p {
+  color: #ffffff;
+  font-size: 18px;
+
+  margin-bottom: 20px;
+}
+.container2 {
+  background-color: #735557;
+  max-width: 1450px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  border-radius: 10px;
+  margin: 20px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.container2:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+.container3 {
+  background-color: #97866a;
+  max-width: 1450px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  border-radius: 10px;
+  margin: 20px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.container3:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+@media screen and (max-width: 768px) {
+  .container1 {
+    flex-direction: column;
+    text-align: center;
+  }
+  .container2 {
+    flex-direction: column;
+    text-align: center;
+  }
+  .container3 {
+    flex-direction: column;
+    text-align: center;
+  }
 }
