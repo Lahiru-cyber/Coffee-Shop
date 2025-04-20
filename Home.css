@@ -34,25 +34,36 @@ li {
 }
 
 .join {
-  background-color: white;
-  color: black;
-  border: 2px solid #4681f4;
-}
-
-.join:hover {
-  background-color: #4681f4;
+  background-color: #735557;
   color: white;
 }
 
+.join:hover {
+  background-color: #735557;
+  color: rgb(255, 255, 255);
+  border: 2px solid #ffffff;
+}
+
 .menu {
-  background-color: white;
-  color: black;
-  border: 2px solid #1b1417;
+  background-color: #604652;
+  color: white;
 }
 
 .menu:hover {
   background-color: #604652;
+  color: rgb(255, 255, 255);
+  border: 2px solid #ffffff;
+}
+
+.orderbtn {
+  background-color: #97866a;
   color: white;
+}
+
+.orderbtn:hover {
+  background-color: #97866a;
+  color: rgb(255, 255, 255);
+  border: 2px solid #ffffff;
 }
 
 .card {
@@ -87,34 +98,7 @@ li {
   transform: translateY(-5px);
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
-.image1 {
-  width: 50%;
-  border-radius: 10px;
-  overflow: hidden;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-}
-.image1 img {
-  display: block;
-  width: 100%;
-  height: auto;
-}
 
-.contenthome {
-  text-align: center;
-  width: 50%;
-  margin-left: 40px;
-}
-.contenthome h1 {
-  color: #ffffff;
-  font-size: 34px;
-  margin-bottom: 20px;
-}
-.contenthome p {
-  color: #ffffff;
-  font-size: 18px;
-
-  margin-bottom: 20px;
-}
 .container2 {
   background-color: #735557;
   max-width: 1450px;
@@ -148,6 +132,36 @@ li {
   transform: translateY(-5px);
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
+
+.image1 {
+  width: 50%;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.image1 img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.contenthome {
+  text-align: center;
+  width: 50%;
+  margin-left: 40px;
+}
+.contenthome h1 {
+  color: #ffffff;
+  font-size: 34px;
+  margin-bottom: 20px;
+}
+.contenthome p {
+  color: #ffffff;
+  font-size: 18px;
+
+  margin-bottom: 20px;
+}
+
 @media screen and (max-width: 768px) {
   .container1 {
     flex-direction: column;
