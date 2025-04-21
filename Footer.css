@@ -1,0 +1,58 @@
+footer {
+  background-color: #604652;
+}
+.footer-container {
+  width: 100%;
+  padding: 15px 20px 15px;
+}
+.social-media-icons {
+  display: flex;
+  justify-content: center;
+}
+.social-media-icons a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  background-color: white;
+  margin: 8px;
+  border-radius: 50%;
+  text-decoration: none;
+}
+.social-media-icons a i {
+  font-size: 18px;
+  color: black;
+}
+
+/* Hover affect on social media icon */
+.social-media-icons a:hover {
+  background-color: #111;
+  transition: 0.5s;
+}
+.social-media-icons a:hover i {
+  color: white;
+  transition: 0.5s;
+}
+
+.footer-bottom {
+  background-color: #4d2e3c;
+  padding: 5px;
+  text-align: center;
+}
+.footer-bottom p {
+  color: white;
+}
+.designer {
+  opacity: 0.7;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400;
+  margin: 0px 5px;
+}
+@media (max-width: 700px) {
+  .social-media-icons a {
+    padding: 8px;
+    margin: 4px;
+  }
+}
