@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Java Coffee Cafe</title>
+    <link rel="icon" href="Images/Cafe logo.png" />
+    <link rel="stylesheet" href="Home.css" />
+    <link rel="stylesheet" href="Menu.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="Footer.css" />
+    <link
+      href="https://getbootstrap.com/docs/5.3/assets/css/docs.css"
+      rel="stylesheet"
+    />
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+    ></script>
+  </head>
+  <body>
+    <script src="Menu.js"></script>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="Home.html">
+          <img class="logoimage" src="Images/Cafe logo.png" alt="shop logo" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="Home.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Menu.html">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Rewards</a>
+            </li>
+          </ul>
+          <span class="navbar-text">
+            <button type="button" class="button signin">Sign In</button>
+            <button type="button" class="button join">Join now</button>
+          </span>
+        </div>
+      </div>
+    </nav>
+    <div class="titlebar">
+      <h1 id="demo" onmousemove="mouseover()" onmouseout="mouseout()">
+        Espresso-Based Iced Drinks
+      </h1>
+
+      <div class="card-container1">
+        <div class="card1">
+          <img src="Images/coffee1.jpg" alt="cafe logo" />
+          <div class="card-contain">
+            <h3>Iced Caramel Macchiato</h3>
+            <p>
+              A smooth combination of matcha green tea and oatmilk, finished
+              with lavender cream cold foam with subtle floral notes. Includes
+              dairy.<br />
+            </p>
+            <button
+              type="button"
+              class="btn btn-outline-light"
+              data-mdb-ripple-init
+              data-mdb-ripple-color="dark"
+            >
+              Order Now
+            </button>
+          </div>
+        </div>
+
+        <div class="card1">
+          <img src="Images/coffee2.jpg" alt="cafe logo" />
+          <div class="card-contain">
+            <h3>Vanilla Sweet Cream Cold Brew</h3>
+            <p>
+              Slow-steeped cold brew coffee topped with a house-made vanilla
+              sweet cream that cascades into each sip. Smooth and lightly sweet.
+              Includes dairy.<br />
+            </p>
+            <button
+              type="button"
+              class="btn btn-outline-light"
+              data-mdb-ripple-init
+              data-mdb-ripple-color="dark"
+            >
+              Order Now
+            </button>
+          </div>
+        </div>
+
+        <div class="card1">
+          <img src="Images/coffee3.jpg" alt="cafe logo" />
+          <div class="card-contain">
+            <h3>Iced Brown Sugar Oatmilk Shaken Espresso</h3>
+            <p>
+              Espresso shaken with brown sugar and cinnamon, combined with
+              oatmilk for a cozy and refreshing iced drink. Dairy-free.
+
+              <br />
+            </p>
+            <button
+              type="button"
+              class="btn btn-outline-light"
+              data-mdb-ripple-init
+              data-mdb-ripple-color="dark"
+            >
+              Order Now
+            </button>
+          </div>
+        </div>
+
+        <div class="card1">
+          <img src="Images/coffee4.jpg" alt="cafe logo" />
+          <div class="card-contain">
+            <h3>
+              Cold Brew <br />
+              Coffee
+            </h3>
+            <p>
+              Naturally smooth and bold cold brew, slow-steeped for 20 hours.
+              Served over ice for a refreshing, no-fuss experience. Dairy-free.
+
+              <br />
+            </p>
+            <button
+              type="button"
+              class="btn btn-outline-light"
+              data-mdb-ripple-init
+              data-mdb-ripple-color="dark"
+            >
+              Order Now
+            </button>
+          </div>
+        </div>
+
+        <div class="card1">
+          <img src="Images/coffee6.jpg" alt="cafe logo" />
+          <div class="card-contain">
+            <h3>Iced Chai Tea <br />Latte</h3>
+            <p>
+              Aromatic black tea infused with cinnamon, clove, and other warming
+              spices, blended with milk and served over ice. Sweet and spicy.
+              Includes dairy.
+
+              <br />
+            </p>
+            <button
+              type="button"
+              class="btn btn-outline-light"
+              data-mdb-ripple-init
+              data-mdb-ripple-color="dark"
+            >
+              Order Now
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--------------------------------------------------------------------------------------------------------------------------------->
+
+    <div class="titlebar">
+      <h1 id="demo2" onmousemove="mouseover2()" onmouseout="mouseout2()">
+        Cold Coffees
+      </h1>
+
+      <div class="card-container1">
+        <div class="card1">
+          <img src="Images/coffee7.jpg" alt="cafe logo" />
+          <div class="card-contain">
+            <h3>Vanilla Sweet Cream Cold Brew</h3>
+            <p>
+              Slow-steeped cold brew coffee topped with a delicate, house-made
+              vanilla sweet cream. Smooth, subtly sweet, and satisfying.
+              Includes dairy.
+
+              <br />
+            </p>
+            <button
+              type="button"
+              class="btn btn-outline-light"
+              data-mdb-ripple-init
+              data-mdb-ripple-color="dark"
+            >
+              Order Now
+            </button>
+          </div>
+        </div>
+
+        <div class="card1">
+          <img src="Images/coffee8.jpg" alt="cafe logo" />
+          <div class="card-contain">
+            <h3>Salted Caramel Cream Cold Brew</h3>
+            <p>
+              Rich cold brew infused with caramel flavor and finished with a
+              layer of salted caramel cold foam. Balanced and velvety. Includes
+              dairy.
+
+              <br />
+            </p>
+            <button
+              type="button"
+              class="btn btn-outline-light"
+              data-mdb-ripple-init
+              data-mdb-ripple-color="dark"
+            >
+              Order Now
+            </button>
+          </div>
+        </div>
+
+        <div class="card1">
+          <img src="Images/coffee9.jpg" alt="cafe logo" />
+          <div class="card-contain">
+            <h3>Iced Mocha</h3>
+            <p>
+              Espresso and bittersweet mocha sauce blended with milk, poured
+              over ice, and topped with whipped cream. A chilled classic for
+              chocolate lovers. Includes dairy.
+
+              <br />
+            </p>
+            <button
+              type="button"
+              class="btn btn-outline-light"
+              data-mdb-ripple-init
+              data-mdb-ripple-color="dark"
+            >
+              Order Now
+            </button>
+          </div>
+        </div>
+
+        <div class="card1">
+          <img src="Images/coffee10.jpg" alt="cafe logo" />
+          <div class="card-contain">
+            <h3>
+              Nitro Cold Brew <br />
+              Coffee
+            </h3>
+            <p>
+              Cold brew infused with nitrogen for a naturally sweet,
+              ultra-smooth taste and creamy texture. Served cold without ice.
+              Dairy-free.
+
+              <br />
+            </p>
+            <button
+              type="button"
+              class="btn btn-outline-light"
+              data-mdb-ripple-init
+              data-mdb-ripple-color="dark"
+            >
+              Order Now
+            </button>
+          </div>
+        </div>
+
+        <div class="card1">
+          <img src="Images/coffee11.jpg" alt="cafe logo" />
+          <div class="card-contain">
+            <h3>Cold Brew Coffee <br />Latte</h3>
+            <p>
+              Bold and smooth, this cold brew is slow-steeped for 20 hours and
+              served over ice for a clean, refreshing experience. Dairy-free.
+
+              <br />
+            </p>
+            <button
+              type="button"
+              class="btn btn-outline-light"
+              data-mdb-ripple-init
+              data-mdb-ripple-color="dark"
+            >
+              Order Now
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-------------------------------------------------Footer----------------------------------------------------------->
+    <footer>
+      <div class="footer-container"></div>
+      <div class="footer-bottom">
+        <p>
+          Copyright &copy;2025; Designed by
+          <span class="designer">Lahiru Karunarathna</span>
+        </p>
+        <div class="social-media-icons">
+          <a href=""><i class="fa-brands fa-facebook"></i></a>
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
+          <a href=""><i class="fa-brands fa-twitter"></i></a>
+          <a href=""><i class="fa-brands fa-tiktok"></i></a>
+          <a href=""><i class="fa-brands fa-youtube"></i></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

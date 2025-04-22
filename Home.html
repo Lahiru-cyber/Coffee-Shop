@@ -4,6 +4,16 @@
     <title>Java Coffee Cafe</title>
     <link rel="icon" href="Images/Cafe logo.png" />
     <link rel="stylesheet" href="Home.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+
     <link rel="stylesheet" href="Footer.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
@@ -30,9 +40,10 @@
     ></script>
   </head>
   <body>
+    <script src="Buttons.js"></script>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="Home.html">
           <img class="logoimage" src="Images/Cafe logo.png" alt="shop logo" />
         </a>
         <button
@@ -49,22 +60,30 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="Home.html"
+                >Home</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Menu</a>
+              <a class="nav-link" href="Menu.html">Menu</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Rewards</a>
             </li>
           </ul>
           <span class="navbar-text">
-            <button type="button" class="button signin">Sign In</button>
-            <button type="button" class="button join2">Join now</button>
+            <button id="signinBtn" type="button" class="button signin">
+              Sign In
+            </button>
+            <button id="joinBtn" type="button" class="button join2">
+              Join now
+            </button>
+
           </span>
         </div>
       </div>
     </nav>
+
     <div class="container1">
       <div class="image1">
         <img
@@ -77,7 +96,14 @@
       <div class="contenthome">
         <h1>Hot Coffee</h1>
         <p>Welcome to Java Coffee Cafe to tast a coffee</p>
-        <button type="button" class="button menu">View the Menu</button>
+        <button
+          id="menuBtn"
+          onclick="onClicks()"
+          type="button"
+          class="button menu"
+        >
+          View the Menu
+        </button>
       </div>
     </div>
 
@@ -97,7 +123,7 @@
           Join now and enjoy a free handcrafted<br />
           drink with a qualifying purchase during your first week.*
         </p>
-        <button type="button" class="button join">Join Now</button>
+        <button id="joinBtn" type="button" class="button join">Join Now</button>
       </div>
     </div>
 
