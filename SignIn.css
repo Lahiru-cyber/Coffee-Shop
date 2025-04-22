@@ -8,10 +8,10 @@ body {
   width: 100%;
   position: relative;
   border: 2px solid #7b5c6e;
-  padding: 40px; /* Adjusted padding */
+  padding: 40px;
   padding-top: 60px;
   transition: transform 0.3s ease-in-out;
-  border-radius: 0.5rem; /* Ensure rounded corners from Bootstrap */
+  border-radius: 0.5rem;
 }
 
 .login-card:hover {
@@ -47,42 +47,25 @@ body {
   transition: transform 0.3s ease;
 }
 
-/* Removed the conflicting transform on .login-card */
-/* .login-card {
-  transform: rotate(360deg);
-} */
-
 .logo:hover {
   transform: rotate(360deg);
 }
 
 .logo-container {
   z-index: 10;
-  /* Adjusted positioning for better centering */
+
   position: absolute;
   top: 0;
   left: 50%;
-  transform: translate(
-    -50%,
-    -50%
-  ); /* Center both horizontally and vertically relative to its size */
+  transform: translate(-50%, -50%);
 }
 
-/* Custom styles for form control to override Bootstrap defaults if needed */
 .form-control {
-  border-radius: 0.25rem; /* Standard Bootstrap border-radius */
-  padding: 0.375rem 0.75rem; /* Standard Bootstrap padding */
+  border-radius: 0.25rem;
+  padding: 0.375rem 0.75rem;
   font-size: 1rem;
 }
 
-.btn-dark {
-  /* Ensure your custom button styles are applied if needed, or rely on Bootstrap */
-  /* Example if you want to override Bootstrap's .btn-dark */
-  /* background-color: #343a40;
-   color: #fff;
-   border: none; */
-}
-
 .invalid-feedback {
-  margin-top: 0.25rem; /* Standard Bootstrap margin */
+  margin-top: 0.25rem;
 }

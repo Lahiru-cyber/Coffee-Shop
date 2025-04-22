@@ -32,8 +32,8 @@
   margin: 20px;
 
   display: flex;
-  flex-direction: column; /* makes content stack vertically */
-  justify-content: space-between; /* space out the children */
+  flex-direction: column;
+  justify-content: space-between;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .card1:hover {
