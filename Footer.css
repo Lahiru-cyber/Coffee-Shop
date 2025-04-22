@@ -22,7 +22,6 @@
   color: black;
 }
 
-/* Hover affect on social media icon */
 .social-media-icons a:hover {
   background-color: #111;
   transition: 0.5s;
