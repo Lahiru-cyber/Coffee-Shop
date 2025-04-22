@@ -29,6 +29,7 @@
     ></script>
   </head>
   <body>
+    <script src="Buttons.js"></script>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
         <a class="navbar-brand" href="Home.html">
@@ -60,8 +61,12 @@
             </li>
           </ul>
           <span class="navbar-text">
-            <button type="button" class="button signin">Sign In</button>
-            <button type="button" class="button join2">Join now</button>
+            <button id="signinBtn" type="button" class="button signin">
+              Sign In
+            </button>
+            <button id="joinBtn" type="button" class="button join2">
+              Join now
+            </button>
           </span>
         </div>
       </div>
@@ -79,7 +84,14 @@
       <div class="contenthome">
         <h1>Hot Coffee</h1>
         <p>Welcome to Java Coffee Cafe to tast a coffee</p>
-        <button type="button" class="button menu">View the Menu</button>
+        <button
+          id="menuBtn"
+          onclick="onClicks()"
+          type="button"
+          class="button menu"
+        >
+          View the Menu
+        </button>
       </div>
     </div>
 
@@ -99,7 +111,7 @@
           Join now and enjoy a free handcrafted<br />
           drink with a qualifying purchase during your first week.*
         </p>
-        <button type="button" class="button join">Join Now</button>
+        <button id="joinBtn" type="button" class="button join">Join Now</button>
       </div>
     </div>
 
