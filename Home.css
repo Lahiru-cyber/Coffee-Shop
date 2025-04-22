@@ -52,7 +52,17 @@ li {
   color: rgb(0, 0, 0);
   border: 2px solid #735557;
 }
+.join2 {
+  background-color: #735557;
+  color: rgb(0, 0, 0);
+  border: 2px solid #735557;
+}
 
+.join2:hover {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  border: 2px solid #735557;
+}
 .menu {
   background-color: #604652;
   color: white;

@@ -1,0 +1,119 @@
+<html>
+  <head>
+    <title>Java Coffee Cafe</title>
+    <link rel="icon" href="Images/Cafe logo.png" />
+    <link rel="stylesheet" href="SignIn.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://getbootstrap.com/docs/5.3/assets/css/docs.css"
+      rel="stylesheet"
+    />
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+    ></script>
+  </head>
+  <body>
+    <script src="Buttons.js"></script>
+    <div
+      class="login-container d-flex justify-content-center align-items-center vh-100"
+    >
+      <div
+        class="login-card p-4 shadow rounded-4 bg-white text-center position-relative"
+      >
+        <div class="logo-container">
+          <a href="Home.html">
+            <img
+              src="Images/Cafe logo.png"
+              alt="Java Coffee Cafe Logo"
+              class="logo"
+          /></a>
+        </div>
+        <div class="mt-5 pt-4">
+          <h2 class="fw-bold">Welcome Back</h2>
+          <p class="text-muted">Please sign in to continue</p>
+        </div>
+        <form id="loginForm" class="text-start needs-validation" novalidate>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="email" required />
+            <div class="invalid-feedback">
+              Please enter a valid email address.
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="password" class="form-label">Password</label>
+            <input
+              type="password"
+              class="form-control"
+              id="password"
+              required
+              minlength="8"
+            />
+            <div class="invalid-feedback" id="passwordFeedback">
+              Please enter your password (at least 8 characters).
+            </div>
+          </div>
+          <div class="d-grid">
+            <button type="submit" class="btn btn-dark">Log In</button>
+          </div>
+        </form>
+        <div class="text-center mt-3">
+          <small class="text-muted"
+            >Don't have an account?
+            <a href="JoinUs.html" class="text-decoration-none"
+              >Sign up</a
+            ></small
+          >
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"></script>
+
+    <script src="SignIn.js"></script>
+  </body>
+</html>
