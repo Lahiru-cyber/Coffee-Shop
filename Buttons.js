@@ -6,3 +6,7 @@ function onClicks(menuBtn) {
 function onClicksSignIn(signinBtn) {
     window.location.href = "SignIn.html";
 }
+
+function onClicksJoinBtn(joinBtn) {
+    window.location.href = "JoinUs.html";
+}

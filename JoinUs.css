@@ -1,0 +1,128 @@
+body {
+  font-family: "Inter", sans-serif;
+  background: linear-gradient(to right, #7b5c6e, #3c2f41);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px; /* Add some padding for smaller screens */
+  opacity: 0; /* Start with opacity 0 for fade-in */
+  animation: fadeIn 1s ease-in-out forwards; /* Fade-in animation */
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+.signup-container {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 15px; /* Rounded corners */
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 800px; /* Increased max-width slightly to accommodate two columns better */
+  text-align: center;
+}
+
+.logo {
+  width: 80px; /* Adjust size as needed */
+  margin: 0 auto 20px; /* Center logo and add space below */
+}
+
+h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+p {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+/* Adjusted margin for form groups within the row */
+.row .form-group {
+  margin-bottom: 20px; /* Keep some bottom margin for spacing between rows */
+}
+
+/* Remove bottom margin from the last form-group in each row */
+.row .form-group:last-child {
+  margin-bottom: 20px; /* Ensure spacing consistency */
+}
+
+/* Add some bottom margin to the row itself */
+.row {
+  margin-bottom: 0; /* Reset row bottom margin as form-group has it now */
+}
+
+/* Ensure margin below the last row before the full-width fields */
+.row:last-of-type {
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px; /* Default margin for full-width form groups */
+  text-align: left;
+}
+
+/* Custom styles for form control to override Bootstrap defaults if needed */
+.form-control {
+  border-radius: 8px;
+  padding: 12px;
+  font-size: 1rem;
+}
+
+select.form-select {
+  appearance: none; /* Remove default arrow */
+  background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23000000%22%20d%3D%22M287%2C114.7L159.3%2C242.5c-8.3%2C8.3-21.7%2C8.3-30%2C0L5.4%2C114.7c-8.3-8.3-8.3-21.7%2C0-30l15-15c8.3-8.3%2C21.7-8.3%2C30%2C0l114.6%2C114.6L242%2C69.3c8.3-8.3%2C21.7-8.3%2C30%2C0l15%2C15C295.3%2C93%2C295.3%2C106.4%2C287%2C114.7z%22%2F%3E%3C%2Fsvg%3E"); /* Custom arrow */
+  background-repeat: no-repeat;
+  background-position: right 12px top 50%;
+  background-size: 12px auto;
+  padding-right: 30px; /* Make space for the arrow */
+}
+
+.btn-dark-custom {
+  width: 100%;
+  padding: 12px;
+  background-color: #343a40; /* Dark background for button */
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-dark-custom:hover {
+  background-color: #495057; /* Darker shade on hover */
+  color: #fff; /* Keep text white on hover */
+}
+
+.login-link {
+  margin-top: 20px;
+  font-size: 1rem;
+  color: #666;
+}
+
+.login-link a {
+  color: #007bff; /* Bootstrap primary blue for link */
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.login-link a:hover {
+  text-decoration: underline;
+}
+
+/* Adjust invalid feedback for better placement */
+.form-group .invalid-feedback {
+  margin-top: 5px;
+}
+.form-label {
+  text-align: left;
+}
