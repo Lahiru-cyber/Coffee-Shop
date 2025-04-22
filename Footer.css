@@ -1,13 +1,10 @@
-footer {
-  background-color: #604652;
-}
 .footer-container {
   width: 100%;
   padding: 15px 20px 15px;
 }
 .social-media-icons {
   display: flex;
-  justify-content: center;
+  justify-content: right;
 }
 .social-media-icons a {
   display: flex;
@@ -25,7 +22,6 @@ footer {
   color: black;
 }
 
-/* Hover affect on social media icon */
 .social-media-icons a:hover {
   background-color: #111;
   transition: 0.5s;
@@ -37,8 +33,11 @@ footer {
 
 .footer-bottom {
   background-color: #4d2e3c;
-  padding: 5px;
-  text-align: center;
+  padding: 5px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
 }
 .footer-bottom p {
   color: white;
@@ -50,9 +49,14 @@ footer {
   font-weight: 400;
   margin: 0px 5px;
 }
-@media (max-width: 700px) {
-  .social-media-icons a {
-    padding: 8px;
-    margin: 4px;
+@media (max-width: 500px) {
+  .footer-bottom {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .social-media-icons {
+    justify-content: center;
+    margin-top: 10px;
   }
 }
