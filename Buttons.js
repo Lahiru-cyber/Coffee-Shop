@@ -10,3 +10,14 @@ function onClicksSignIn(signinBtn) {
 function onClicksJoinBtn(joinBtn) {
     window.location.href = "JoinUs.html";
 }
+
+function onClicksLocationBtn(locationBtn) {
+    window.location.href = "Locations.html";
+}
+function onClicksHomeBtn(homeBtn) {
+    window.location.href = "Home.html";
+}
+
+function onClicksOrderBtn1(OrderBtn1) {
+    window.location.href = "Order.html";
+}
