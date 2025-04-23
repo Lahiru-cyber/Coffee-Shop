@@ -89,6 +89,7 @@ select.form-select {
   font-size: 1.1rem;
   font-weight: 600;
   cursor: pointer;
+  color: #fff;
   transition: background-color 0.3s ease;
 }
 
